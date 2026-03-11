@@ -1,5 +1,5 @@
 # FOUNDCOG Data Release v1
-This release includes the shareable data collected from 2-month and 9-month old infants who completed the FOUNDCOG pictures task at Trinity College Institute of Neuroscience. If you run into any issues, please reach out to Cliona O'Doherty.
+This release includes the shareable data collected from 2-month and 9-month old infants who completed the FOUNDCOG pictures task at Trinity College Institute of Neuroscience.
 
 - 172 5-min awake fMRI sessions from 84 2-month-olds and 65 runs from 42 9-month-olds.
 - Single band reference scans, in opposite phase encoding directions, used for susceptibility distortion correction using FSL Topup are included per session.
@@ -18,10 +18,9 @@ sub-(timepoint in months)(identifier)
 ### Experimental code
 - The paradigm was run using Psychopy, the protocol can be found at [https://github.com/ClionaOD/foundcog_paradigm](https://github.com/ClionaOD/foundcog_paradigm)
 - Preprocessing used a custom in-house pipeline. This is currently being prepared for sharing and will be made available at [https://github.com/ClionaOD/foundcog_analysis][https://github.com/ClionaOD/foundcog_analysis]. 
-- The GLM used to generate betas is being prepared for sharing and will be made available at [https://github.com/ClionaOD/foundcog_analysis][https://github.com/ClionaOD/foundcog_analysis].
-- Full integration of the GitHub pipelines and this version of the dataset is ongoing work, so if you run into any issues please reach out to Clíona O'Doherty.   
+- The GLM used to generate betas is being prepared for sharing and will be made available at [https://github.com/ClionaOD/foundcog_analysis][https://github.com/ClionaOD/foundcog_analysis].   
 
-## O'Doherty et al. (2026), Nature Neuroscience MVPA Analysis (https://doi.org/10.1038/s41593-025-02187-8)
+## O'Doherty et al. (2025), Nature Neuroscience MVPA Analysis
 - Fully anonymised RDMs, including n=101 2-month-olds and n=44 9-month-olds are available in derivatives/foundcog_rdms/.
 - - Some raw data that was included in the publication has not been shared here. This is the case for infants recruited from the NICU and those whose caregivers did not consent to open sharing. 
 - The code used for analysis is being prepared and can be found [https://github.com/ClionaOD/foundcog_analysis][https://github.com/ClionaOD/foundcog_analysis].
